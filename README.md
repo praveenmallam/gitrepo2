@@ -1,2 +1,2 @@
 # gitrepo2
-This is for practice
+This useradd.yml script is an ansible script to add user based on the hostname.
