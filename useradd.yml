@@ -1,0 +1,11 @@
+---
+ - name: Create a user
+   hosts: localhost
+   tasks:
+   - name: create user now
+     user:
+      name: ansible
+      uid: 1999
+      comment: Ansible user
+      password: $6$myAnsi$
+    
